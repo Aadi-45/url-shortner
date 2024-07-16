@@ -5,6 +5,7 @@ import path from "path";
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: '/url-shortner/',
   plugins: [react()],
   resolve: {
     alias: {
